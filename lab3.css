@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+section {
+    border: 2px solid rgb(30, 163, 30);
+    border-width: thick;
+    padding: 25px;
+    height: 100%; /* Everything fits in the border full screen */
+    width: auto;
+    margin: 0;
+    background-color: rgb(124, 222, 235);
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 25px;
+    background-color: rgb(124, 222, 235);
+    height: 100%; /* So it can fit fully on the screen. Fixes my white space problem */
+}
+
+a {
+    color: rgb(71, 194, 71);
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    list-style: none;
+    
+}
+
+img {
+    float: right;
+    width: 225px;
+}
+
+li {
+    list-style: none;
+    display: inline-block; /* shows on the same line*/
+    font-weight: bold;
+    color: gray;
+}
+
+div {
+    text-align: center;
+}
+
